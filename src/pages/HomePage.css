@@ -1,0 +1,54 @@
+/* HomePage.css */
+
+.home-page {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.feature,
+.subscribe {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.feature h2,
+.subscribe h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.feature p,
+.subscribe p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.home-page a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.home-page a:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,40 @@
+/* ErrorFallback.css */
+
+.error-fallback {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #f44336; /* Red color for error message */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+pre {
+  font-family: monospace;
+  white-space: pre-wrap;
+  color: #f44336; /* Red color for error message */
+}
+
+.error-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.error-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,41 @@
+/* NotFound.css */
+
+.not-found-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #f44336; /* Red color for error message */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+ul {
+  text-align: left;
+  margin: 10px 0;
+}
+
+li {
+  font-size: 1.2rem;
+  color: #555;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.not-found-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.not-found-container a:hover {
+  text-decoration: underline;
+}
